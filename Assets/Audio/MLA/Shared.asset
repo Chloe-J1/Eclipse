@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03dcebf39c23eff41877a882b2c2857c, type: 3}
+  m_Name: Shared
+  m_EditorClassIdentifier: Assembly-CSharp::Eclipse.Audio.MultiLayerAudioShared
+  m_pitchMinMax: {x: 1, y: 1}
+  m_layers:
+  - m_clips:
+    - {fileID: 8300000, guid: d517dd4cf157d7d4ebd736520e26e110, type: 3}
+    - {fileID: 8300000, guid: 7ffdfa7f9c9e02e4aa5f1aefbe036de0, type: 3}
+    m_minMaxVolume: {x: 1, y: 1}
+    m_elementName: 0
+  - m_clips:
+    - {fileID: 8300000, guid: 3ae15d1d204ab024594982091a389443, type: 3}
+    - {fileID: 8300000, guid: 3c4b9abcfb57b624a9cb9919cdf20e36, type: 3}
+    - {fileID: 8300000, guid: b35757db1a1d3704faa993ccabe0c569, type: 3}
+    m_minMaxVolume: {x: 0.4, y: 0.6}
+    m_elementName: 1
+  - m_clips:
+    - {fileID: 8300000, guid: dd78639a1ca571f488c4079320b5b01a, type: 3}
+    - {fileID: 8300000, guid: 6afa6cf119b2dcb4381706ad8092db4e, type: 3}
+    - {fileID: 8300000, guid: b49696683c90dd7429566649a08cda80, type: 3}
+    m_minMaxVolume: {x: 0.4, y: 0.6}
+    m_elementName: 2
+  - m_clips:
+    - {fileID: 8300000, guid: 7f7151368d4301545af0457579510650, type: 3}
+    - {fileID: 8300000, guid: ab09900b4d04cc9418de51aa07284688, type: 3}
+    - {fileID: 8300000, guid: a7f8f0cb4860cb14a9be7a6b50d49bb5, type: 3}
+    m_minMaxVolume: {x: 1, y: 1}
+    m_elementName: 3
+  - m_clips:
+    - {fileID: 8300000, guid: feb91a9473371194d9be3d3c1819b6fe, type: 3}
+    - {fileID: 8300000, guid: 7ffdfa7f9c9e02e4aa5f1aefbe036de0, type: 3}
+    m_minMaxVolume: {x: 1, y: 1}
+    m_elementName: 5
+  - m_clips:
+    - {fileID: 8300000, guid: 805b97c5a5417c44fb7865be04fd2d6c, type: 3}
+    - {fileID: 8300000, guid: 9282ef57dfe25fe4896749aa0b4ee27e, type: 3}
+    - {fileID: 8300000, guid: 3d4a33b696057ac4b96f2326d95d93b7, type: 3}
+    m_minMaxVolume: {x: 1, y: 1}
+    m_elementName: 4
+  - m_clips:
+    - {fileID: 8300000, guid: 3a04847b126ed584aa82939ca27d690c, type: 3}
+    - {fileID: 8300000, guid: ef4cf077d09480045a0e282c2acf2af2, type: 3}
+    - {fileID: 8300000, guid: 2d34ab03f2b07804b84f9be7d34462e5, type: 3}
+    - {fileID: 8300000, guid: 32123df5e3b3d1a439e2ad876bec2c92, type: 3}
+    m_minMaxVolume: {x: 1, y: 1}
+    m_elementName: 6

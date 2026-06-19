@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-64312708529764013
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_SpearsExtract_01_{-64312708529764013}
+  m_AudioClip: {fileID: 8300000, guid: c0cc13ba415250f48bf381e13a710c49, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &106829879167924308
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_SpearsExtract_02_{106829879167924308}
+  m_AudioClip: {fileID: 8300000, guid: f7d29eeb70a6f4b43a094916fd4d60d7, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5464922640115003227
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_SpearsExtract_03_{5464922640115003227}
+  m_AudioClip: {fileID: 8300000, guid: ffcb82eb66b480a42bdbcc49e4c0dfde, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ExtractContainer
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: -64312708529764013}
+  - {fileID: 106829879167924308}
+  - {fileID: 5464922640115003227}
+  - {fileID: 6782216070411545423}
+  m_AvoidRepeatingLast: 2
+  m_PlaybackMode: 2
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &6782216070411545423
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_SpearsExtract_04_{6782216070411545423}
+  m_AudioClip: {fileID: 8300000, guid: c2999d0433d95564abb5c647a8dd1110, type: 3}
+  m_Volume: 0
+  m_Enabled: 1

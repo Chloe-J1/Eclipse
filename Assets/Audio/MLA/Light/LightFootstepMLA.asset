@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 636a4a31f57efc344b33601ca5af396b, type: 3}
+  m_Name: LightFootstepMLA
+  m_EditorClassIdentifier: Assembly-CSharp::Eclipse.Audio.MultiLayerAudioLight
+  m_pitchMinMax: {x: 1, y: 1.2}
+  m_layers:
+  - m_clips:
+    - {fileID: 8300000, guid: 4942efd88d0f0624db9d20cf1fb15c2e, type: 3}
+    - {fileID: 8300000, guid: d7e52a35a9099da48bbd2413159e6b7e, type: 3}
+    - {fileID: 8300000, guid: 7b3bd46440ac5df40a1d9bb94b06e629, type: 3}
+    - {fileID: 8300000, guid: e0444e73e471be84fb1e156d78bfc0ab, type: 3}
+    - {fileID: 8300000, guid: 83f94dde96793154a9a79346e273c5fb, type: 3}
+    - {fileID: 8300000, guid: 69b7eccd7f5979e44afb40d8934c7685, type: 3}
+    m_minMaxVolume: {x: 0.6, y: 1}
+    m_elementName: 2
+  - m_clips:
+    - {fileID: 8300000, guid: 2540bd68ef43b7f45a80ce8eacbbc80b, type: 3}
+    - {fileID: 8300000, guid: 55e0f5b849dcd454492bab3fb772d6e8, type: 3}
+    - {fileID: 8300000, guid: f80d67b4242d3af4f99444699183aebb, type: 3}
+    - {fileID: 8300000, guid: 4140b7398c7403c41953ede19ceb4e00, type: 3}
+    - {fileID: 8300000, guid: d34f74455fd9f304989e25ea0aa22e9a, type: 3}
+    - {fileID: 8300000, guid: 652a232d63b426d4eb0e6e252faa898a, type: 3}
+    m_minMaxVolume: {x: 0.6, y: 1}
+    m_elementName: 3
+  - m_clips:
+    - {fileID: 8300000, guid: 31fd8a710bf8c82438720fd2e10d247e, type: 3}
+    - {fileID: 8300000, guid: 4e128c5d6bcbd1d4c9ea64881f6e6c5a, type: 3}
+    - {fileID: 8300000, guid: af8dd4d90945fa64a815950b7f3aed68, type: 3}
+    - {fileID: 8300000, guid: e9ef10fe586d1b2458607d51565f6333, type: 3}
+    - {fileID: 8300000, guid: 4a9da4ec70e937349ad9ad2645eda116, type: 3}
+    - {fileID: 8300000, guid: 75c03ce1edb42e64d917b6023988def0, type: 3}
+    m_minMaxVolume: {x: 0.8, y: 1}
+    m_elementName: 4

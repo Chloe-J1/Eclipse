@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d73a4d26e0b4ae4bb4e77e0f1d1915d, type: 3}
+  m_Name: MM_Dark
+  m_EditorClassIdentifier: Assembly-CSharp::MaterialMapperDark
+  _materialMappings:
+  - _material: {fileID: 2100000, guid: bb29417058d7d3a478d51e241b440d22, type: 2}
+    _element: 2
+  - _material: {fileID: 2100000, guid: a5f281663e4abd243b4400e82acd4ee2, type: 2}
+    _element: 3
+  - _material: {fileID: 2100000, guid: 5526310165b0ea64e82264143a336079, type: 2}
+    _element: 4
+  - _material: {fileID: 2100000, guid: bb29417058d7d3a478d51e241b440d22, type: 2}
+    _element: 8
+  - _material: {fileID: 2100000, guid: a5f281663e4abd243b4400e82acd4ee2, type: 2}
+    _element: 9
+  - _material: {fileID: 2100000, guid: 5526310165b0ea64e82264143a336079, type: 2}
+    _element: 10

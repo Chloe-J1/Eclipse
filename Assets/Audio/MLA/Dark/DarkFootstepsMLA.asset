@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b96d1b9b1d83b546bab62e815566b31, type: 3}
+  m_Name: DarkFootstepsMLA
+  m_EditorClassIdentifier: Assembly-CSharp::Eclipse.Audio.MultiLayerAudioDark
+  m_pitchMinMax: {x: 1, y: 1.2}
+  m_layers:
+  - m_clips:
+    - {fileID: 8300000, guid: daec1e411ea89274687fcd4c5289832a, type: 3}
+    - {fileID: 8300000, guid: 7176419fb7e2b9345bad2f2b6acb8845, type: 3}
+    - {fileID: 8300000, guid: 7eb20757b0738ae448cee807a4d8689a, type: 3}
+    - {fileID: 8300000, guid: 8ddbcdc0d04efbd45af994d78cc17374, type: 3}
+    - {fileID: 8300000, guid: 573daa93693d31149886644cb2dbf779, type: 3}
+    - {fileID: 8300000, guid: 29ccef0b3d7946e47a894f845105528f, type: 3}
+    m_minMaxVolume: {x: 1, y: 1}
+    m_elementName: 2
+  - m_clips:
+    - {fileID: 8300000, guid: 3bdd7de5f3b3ef148b5d2d55325aac53, type: 3}
+    - {fileID: 8300000, guid: 89836cc413ed9924d8f37897aaeeb244, type: 3}
+    - {fileID: 8300000, guid: 83cd079cfe4b2294d99cf44200687a1b, type: 3}
+    - {fileID: 8300000, guid: 8850e874ca7fbd04a887b22927511566, type: 3}
+    - {fileID: 8300000, guid: ffba9a20db89a2143afe56a5453f3fbb, type: 3}
+    - {fileID: 8300000, guid: 58024fa8f02bc4941948c1fd57582d26, type: 3}
+    m_minMaxVolume: {x: 1, y: 1}
+    m_elementName: 3
+  - m_clips:
+    - {fileID: 8300000, guid: ca6ec8db9b2efd644b1e15fb971214ce, type: 3}
+    - {fileID: 8300000, guid: 907b6230e62e7b648a572f2d4490852f, type: 3}
+    - {fileID: 8300000, guid: f28aa9ecf5a8d394aa93d010bf3b49ea, type: 3}
+    - {fileID: 8300000, guid: ecd7e7884e8b63346aa9f179b1d1d7c6, type: 3}
+    - {fileID: 8300000, guid: 1dddd82bd098f8b4eaee31dddaaa6b40, type: 3}
+    - {fileID: 8300000, guid: 7cfde843e09611841a32aafa1a0c4c8e, type: 3}
+    m_minMaxVolume: {x: 1, y: 1}
+    m_elementName: 4

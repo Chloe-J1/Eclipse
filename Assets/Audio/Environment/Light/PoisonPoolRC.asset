@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-5968887668662626517
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_poisonPool_02_{-5968887668662626517}
+  m_AudioClip: {fileID: 8300000, guid: 599c25b6f552f07468f8b73bbfc1dac9, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3040967612928524193
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_poisonPool_03_{-3040967612928524193}
+  m_AudioClip: {fileID: 8300000, guid: dba2ad77774ccc94f9d9443e19156414, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3611505466600079686
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_poisonPool_04_{3611505466600079686}
+  m_AudioClip: {fileID: 8300000, guid: d49fe258e08a30b4685d8d157e3e8a4d, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PoisonPoolRC
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 7575211861183716005}
+  - {fileID: -5968887668662626517}
+  - {fileID: -3040967612928524193}
+  - {fileID: 3611505466600079686}
+  m_AvoidRepeatingLast: 2
+  m_PlaybackMode: 2
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 1
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &7575211861183716005
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_poisonPool_01_{7575211861183716005}
+  m_AudioClip: {fileID: 8300000, guid: 80d90a6a45756ba4b82c56ebdedcc843, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
