@@ -95,13 +95,13 @@ PrefabInstance:
       addedObject: {fileID: 2791882011636140729}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c39654eca2f30444ea32ece9a110290f, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 743758407743239363}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c39654eca2f30444ea32ece9a110290f, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 8694155202193089353}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c39654eca2f30444ea32ece9a110290f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4796798861777180220}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c39654eca2f30444ea32ece9a110290f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1146126525752837256}
   m_SourcePrefab: {fileID: 100100000, guid: c39654eca2f30444ea32ece9a110290f, type: 3}
 --- !u!1 &6195991866976872434 stripped
 GameObject:
@@ -219,22 +219,6 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
---- !u!114 &743758407743239363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6195991866976872434}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f37c02f2e91aa9046b952a05ecba2706, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LightbeamOrb
-  m_lightLayer:
-    serializedVersion: 2
-    m_Bits: 128
-  reflectionHitFX: {fileID: 5191045381609024871}
 --- !u!135 &8694155202193089353
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -250,7 +234,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -278,6 +262,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1146126525752837256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6195991866976872434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb9360165919774e9979695b293f046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Eclipse.Lightbeam
+  m_lineRenderer: {fileID: 2791882011636140729}
+  m_aimDir: {x: 0, y: 0, z: 0}
+  lightOrbFX: {fileID: 1588809278530551095}
+  reflectionHitFX: {fileID: 5191045381609024871}
 --- !u!4 &6825000085847145800 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c39654eca2f30444ea32ece9a110290f, type: 3}
@@ -375,6 +375,11 @@ PrefabInstance:
 --- !u!4 &286692592977427959 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6686675714925330584, guid: e12f339dd7ce1f848a1377f76b5874bb, type: 3}
+  m_PrefabInstance: {fileID: 6859353070304542063}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1588809278530551095 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5277590773004812376, guid: e12f339dd7ce1f848a1377f76b5874bb, type: 3}
   m_PrefabInstance: {fileID: 6859353070304542063}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8617119396440424353

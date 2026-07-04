@@ -1,5 +1,6 @@
 using UnityEngine;
 using System;
+using System.Linq;
 
 namespace Eclipse
 {
@@ -8,20 +9,15 @@ namespace Eclipse
         private Animator m_animator;
         public event EventHandler m_buttonActivatedEvent;
 
-        private Lightbeam m_lightBeam;
-        private LightbeamOrb[] m_lightbeamPickup;
+        //private Lightbeam m_lightBeam;
+        private Lightbeam[] m_lightbeams;
         private bool m_isPressed = false;
         private Renderer m_renderer;
 
         void Start()
         {
-            m_lightBeam = FindAnyObjectByType<Lightbeam>();
-            if (m_lightBeam == null) Debug.LogError("No lightbeam found");
-
-            m_lightBeam.m_buttonHit += OnButtonHit;
-
-            m_lightbeamPickup = FindObjectsByType<LightbeamOrb>(FindObjectsSortMode.None);
-            foreach (LightbeamOrb orb in m_lightbeamPickup)
+            m_lightbeams = FindObjectsByType<Lightbeam>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+            foreach (Lightbeam orb in m_lightbeams)
             {
                 orb.m_buttonHit += OnButtonHit;
             }
