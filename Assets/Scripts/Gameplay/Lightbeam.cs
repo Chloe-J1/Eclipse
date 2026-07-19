@@ -75,7 +75,7 @@ namespace Eclipse
                     {
                         //-------------------------------------------------
                         var reflectionmain = reflectionHitFX.main;
-                        //reflectionmain.startColor = Color.yellow;
+                        reflectionmain.startColor = Color.yellow;
 
 
                         reflectionHitFX.GetComponent<ParticleSystemRenderer>().material.SetFloat("_onHit", 0f);

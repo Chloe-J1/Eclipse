@@ -9,7 +9,6 @@ namespace Eclipse
         private Animator m_animator;
         public event EventHandler m_buttonActivatedEvent;
 
-        //private Lightbeam m_lightBeam;
         private Lightbeam[] m_lightbeams;
         private bool m_isPressed = false;
         private Renderer m_renderer;
